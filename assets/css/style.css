@@ -1,0 +1,44 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/prism.png");
+    font-size: 20px;
+    color: #777;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-link {
+    color: #777;
+}
+
+.container {
+    padding: 0;
+}
+
+.body-container {
+    width: 800px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.page-titles {
+    color: #4aaaa5;
+}
+
+#name {
+    background-color: #4aaaa5;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    color: #fff;
+}
