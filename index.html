@@ -10,49 +10,57 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <div class="navbar-brand" id="name">
-                <h1>David Toth</h1>
+    <wrapper class="d-flex flex-column">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div class="navbar-brand" >
+                    <h1 id="name">David Toth</h1>
+                </div>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+        </nav>
+        <div class="container flex-fill">
+            <div class="body-container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="page-titles">About Me</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-3 text-center">
+                        <img class="img-fluid" src="assets/images/profile_picture_square.jpg" alt="Profile Picture" style="max-height: 350px"/>
+                    </div>
+                    <div class="col-12 col-md-9 text-justify">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sint consequuntur eum minima ex expedita vel 
+                            eligendi voluptas rem! Omnis velit nisi repudiandae reprehenderit porro id odio quae repellat dolores! 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iste itaque, facilis tempora accusantium 
+                            commodi ducimus ipsum, quae esse quaerat perferendis unde vero voluptate cumque! Nisi autem blanditiis 
+                            dolores! Facere?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-justify">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusamus quasi omnis unde, distinctio soluta aspernatur corporis asperiores sapiente error hic porro qui dolore assumenda eum ipsum quas iusto. Ipsa!</p>
+                        <p>Voluptates esse illum iste labore rerum facilis error eveniet, possimus fugit sed consequatur facere expedita corporis optio, sit provident dolor, sequi iure exercitationem hic nisi adipisci. Beatae, tempore! Vero, mollitia!</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-    <div class="container">
-        <div class="body-container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="page-titles">About Me</h1>
-                </div>
+        <footer class="footer text-center">
+            <div class="container footer-container">
+                Copyright©
             </div>
-            <div class="row">
-                <div class="col-sm-2">
-                    <img class="img-fluid" src="assets/images/profile_picture.jpg" alt="Profile Picture" id="profile-picture"/>
-                </div>
-                <div class="col-sm-10">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sint consequuntur eum minima ex expedita vel 
-                        eligendi voluptas rem! Omnis velit nisi repudiandae reprehenderit porro id odio quae repellat dolores! 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iste itaque, facilis tempora accusantium 
-                        commodi ducimus ipsum, quae esse quaerat perferendis unde vero voluptate cumque! Nisi autem blanditiis 
-                        dolores! Facere?</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-
-                </div>
-            </div>
-        </div>
-    </div>
+        </footer>
+    </wrapper>
 </body>
 </html>
